@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+h1{
+    background-color: gold;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+#addemployee{
+    width: 200px;
+    height: 70px;
+
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(0, 42, 255);
+}
+
+#cleardata{
+    width: 200px;
+    margin: 20px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(0, 42, 255);
+}
+
+#addemployee:hover, #cleardata:hover{
+    background-color: rgb(79, 79, 154);
+}
+.table{
+    width: 100%;
+}
+
+ table{
+    width: 100%;
+    
+}
+
+th{
+   border-left: 1px solid;
+   border-top:1px solid ;
+   border-bottom: 1px solid;
+   font-size: 30px;
+   padding: 10px;
+   background-color: brown;
+    
+}
+
+td {
+   text-align: center;
+   border-bottom:1px solid ;
+   border-left: 1px solid;
+   font-size: 50px;
+   background-color: aqua;
+}
+
+#edit{
+    background-color: rgb(59, 134, 59);
+    color: white;
+    width: 60px;
+    height: 30px;
+    font-size: large;
+
+}
+
+#trash{
+
+    background-color:red ;
+    color: white;
+    width: 60px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: large;
+    
+
+}
+.details{
+    background-color:white ;
+
+   width: 500px;
+
+   height: 500px;
+   position: fixed;
+   top: 20%;
+   left: 30%;
+   padding: 20px;
+   display: none;
+   z-index: -1;
+  transition: 0.5s;
+  border: 1px solid;
+  box-shadow: 5px 5px 10px 10px gray;
+}
+.details1{
+   
+    display: block;
+   z-index: 1;
+}
+
+
+input{
+
+    width: 200px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    left: 200px;
+
+    font-size: 30px;
+    background-color: white ;
+   
+    outline: none;
+    border:none;
+    border-bottom:2px solid ;
+    position: relative;
+    bottom: -50px;
+   
+    
+   
+  
+    
+}
+
+label{
+    font-size: 20px;
+    position: relative;
+    bottom: -100px;
+    
+   
+    
+    
+
+}
+
+#submit{
+      width: 150px;
+      height: 50px;
+     margin-left: 80px;
+     margin-bottom: 10px;
+     font-size: 30px;
+     position: relative;
+     bottom: -100px;
+
+}
+
+#cancel{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+     bottom: -100px;
+}
+
+
+.img{
+    position: absolute;
+    top: 60px;
+    width: 20px;
+    left: 300px;
+
+}
+
+.btn{
+    top: 40px;
+    width: 20px;
+    left: 280px;
+    /* height: 30px; */
+   opacity: 0;
+
+}
+
+.image{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+
